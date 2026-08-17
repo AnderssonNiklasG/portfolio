@@ -1,0 +1,9 @@
+node_modules/
+.env
+
+# Unencrypted source pages at the project root — never commit these to a
+# public repo. Only the encrypted output in docs/ should be published.
+/index.html
+/portfolio.html
+/case-study-*.html
+/assets/

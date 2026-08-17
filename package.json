@@ -1,0 +1,17 @@
+{
+  "name": "niklas-portfolio",
+  "version": "1.0.0",
+  "description": "Niklas Andersson portfolio, password-protected with StatiCrypt for GitHub Pages deployment",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf docs && set -a && . ./.env && set +a && staticrypt index.html case-study-*.html -d docs --short",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "staticrypt": "^3.5.4"
+  }
+}
